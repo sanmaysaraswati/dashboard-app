@@ -1,0 +1,102 @@
+/* src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: blue;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #444;
+}
+
+h3 {
+  margin: 0;
+  color: #555;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.category {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.category h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.widget {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  position: relative;
+}
+
+.widget p {
+  margin: 5px 0 10px;
+}
+
+.widget button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 0.8rem;
+}
+
+.widget button:hover {
+  background-color: #ff1a1a;
+}
+
+.add-widget {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px dashed #ccc;
+  border-radius: 8px;
+}
+
+.add-widget input {
+  width: calc(50% - 20px);
+  padding: 8px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.add-widget button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-widget button:hover {
+  background-color: #45a049;
+}
