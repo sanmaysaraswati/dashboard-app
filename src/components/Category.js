@@ -1,5 +1,3 @@
-// src/components/Category.js
-
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addWidget } from '../store/dashboardSlice';
