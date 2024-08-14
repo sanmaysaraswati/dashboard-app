@@ -1,5 +1,3 @@
-// src/components/Widget.js
-
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { removeWidget } from '../store/dashboardSlice';
